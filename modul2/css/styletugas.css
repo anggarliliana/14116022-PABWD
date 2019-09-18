@@ -1,0 +1,7 @@
+.kotak1 {
+  background: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+}
+
+.kotak2 {
+  background: radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+}
