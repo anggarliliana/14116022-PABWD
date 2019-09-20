@@ -1,0 +1,133 @@
+body {
+    background-image:url(do.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+ 
+ 
+header{
+    text-align: left;
+    align-content: left;
+	color: pink;
+}
+ 
+header .judul{
+	font-size: 40pt;
+}
+ 
+header .deskripsi{
+	font-size: 28pt;
+}
+ 
+.wrap {
+    width: 650px;
+    align-content: center;
+	margin:auto;
+}
+ 
+nav.menu ul {
+    overflow:hidden;
+    align-content: center;
+    color:pink;
+	list-style:none;
+	padding:center;
+	width: 600px;
+	margin:center;
+	background:pink;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+}
+ 
+nav.menu ul li {
+    align-content: center;
+	margin:auto;
+	float:left;
+}
+ 
+nav.menu ul a {
+	padding:30px;
+	display:block;
+	font-weight:4000;
+    font-size: 16px;
+    text-align: center;
+    align-content: center;
+	color:#purple;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+ 
+nav.menu ul a:hover {
+	text-decoration: underline;
+	background:black;
+}
+ 
+.blog {
+	float:left;
+}
+ 
+.isi {
+	width:650px;
+    padding:25px;
+    align-content: center;
+	margin:25px auto;
+	background: pink;
+	border:1px solid white;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+}
+ 
+
+
+    footer {
+        display: block;
+        color: pink;
+		}
+		
+		.sidebar {
+			float:center;
+			width:650px;
+			margin:auto;
+			align-content: center;
+		}
+		 
+		.sidebar .widget {
+			padding:25px;
+			margin:0 0 25px;
+			background:red;
+			border-bottom: 2px solid pink;
+			transition: all 0.5s ease;
+		}
+		 
+		.sidebar .widget:hover {
+			border-bottom: 2px pink;
+		}
+		 
+		.sidebar .widget h2 {
+			padding:0;
+			margin:0 0 15px;
+			color:#3498db;
+			font-size: 18px;
+			font-weight:800;
+			text-transform: uppercase;
+		}
+		 
+		.sidebar .widget p {
+			font-size: 14px;
+		}
+		 
+		.sidebar .widget p:last-child {
+			margin:0;
+		}
+		.sidebar .widget img{
+		align-content:center;
+		max-resolution: 0; 0 0 0;
+		width: 650px;
+		align-content: center;
+		margin:auto;
+		}
+		 
